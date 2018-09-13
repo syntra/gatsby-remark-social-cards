@@ -1,6 +1,6 @@
 # gatsby-remark-social-cards
 
-[![npm package][https://img.shields.io/npm/v/gatsby-remark-social-cards.svg?style=flat-square]][https://www.npmjs.org/package/gatsby-remark-social-cards]
+[![npm package](https://img.shields.io/npm/v/gatsby-remark-social-cards.svg?style=flat-square)](https://www.npmjs.org/package/gatsby-remark-social-cards)
 
 Do you wish your Gatsby blog posts could look like this when getting shared to Twitter?
 
