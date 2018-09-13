@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-social-cards",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Remark plugin for generating social card graphics.",
   "repository": "https://github.com/garetmckinley/gatsby-remark-social-cards",
   "author": "Garet McKinley",
