@@ -6,25 +6,25 @@ Do you wish your Gatsby blog posts could look like this when getting shared to T
 
 ![custom twitter blog post card](https://i.imgur.com/BVfHE1W.jpg)
 
-With this pluging, they can!
+With this plugin, they can!
 
 `gatsby-remark-social-cards` iterates over your markdown files and automatically generates graphical representations of the frontmatter data! It's highly customizable and can help increase your click rates.
 
 ## Features/Roadmap
 
--   [x] Generates Twitter Card
--   [ ] Generates Facebook Card
--   [x] Custom Background Colors
--   [ ] Custom Background Image
--   [ ] Custom Font Colors (currently supports `white` and `black`) [See #1](https://github.com/garetmckinley/gatsby-remark-social-cards/issues/1)
--   [ ] Custom Font Family
--   [x] Custom Font Size
--   [x] Custom Font Style (normal, italic, and bold)
--   [x] Custom Font Positioning
--   [x] Custom Metadata Strings
--   [ ] Watermark/Logo Support
--   [ ] Stackable Text Effects (opacity, drop shadow, stroke, pattern overlay)
--   [ ] Stackable Background Shapes (rect, circle, polygon)
+- [x] Generates Twitter Card
+- [ ] Generates Facebook Card
+- [x] Custom Background Colors
+- [ ] Custom Background Image
+- [ ] Custom Font Colors (currently supports `white` and `black`) [See #1](https://github.com/garetmckinley/gatsby-remark-social-cards/issues/1)
+- [ ] Custom Font Family
+- [x] Custom Font Size
+- [x] Custom Font Style (normal, italic, and bold)
+- [x] Custom Font Positioning
+- [x] Custom Metadata Strings
+- [ ] Watermark/Logo Support
+- [ ] Stackable Text Effects (opacity, drop shadow, stroke, pattern overlay)
+- [ ] Stackable Background Shapes (rect, circle, polygon)
 
 ## Installation
 
@@ -116,8 +116,8 @@ I built this plugin to be as flexible as possible, so at first the config may se
 
 This plugin is in it's early stages, so any and all help is warmly welcomed!
 
--   ⇄ Pull/Merge requests and ★ Stars are always welcome!
--   For bugs and feature requests, please [create an issue][https://github.com/garetmckinley/gatsby-remark-social-cards/issues/new].
+- ⇄ Pull/Merge requests and ★ Stars are always welcome!
+- For bugs and feature requests, please [create an issue][https://github.com/garetmckinley/gatsby-remark-social-cards/issues/new].
 
 ## Changelog
 
