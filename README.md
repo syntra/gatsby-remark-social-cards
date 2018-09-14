@@ -133,8 +133,8 @@ I built this plugin to be as flexible as possible, so at first the config may se
                 // More fonts coming soon!
                 font: "DejaVuSansCondensed",
                 color: "black", // black|white
-                size: title_size = 48, // 16|24|32|48|64
-                style: title_style = "bold", // normal|bold|italic
+                size: 48, // 16|24|32|48|64
+                style: "bold", // normal|bold|italic
                 x: null, // Will default to xMargin
                 y: null, // Will default to yMargin
               },
@@ -146,9 +146,9 @@ I built this plugin to be as flexible as possible, so at first the config may se
                 // The objects are used to pull data from your markdown's
                 // frontmatter. { field: "author" } pulls the author set
                 // in the frontmatter. { field: "category" } would pull
-                // the category set. Any field can be used in meta_parts
+                // the category set. Any field can be used as parts
                 // Note: Only pass the "format" property on date fields
-                parts: meta_parts = [
+                parts: [
                   "- ",
                   { field: "author" },
                   " » ",
@@ -156,12 +156,12 @@ I built this plugin to be as flexible as possible, so at first the config may se
                 ],
                 // Currently only supports DejaVuSansCondensed
                 // More fonts coming soon!
-                font: meta_font = "DejaVuSansCondensed",
-                color: meta_color = "black", // black|white
-                size: meta_size = 24, // 16|24|32|48|64
-                style: meta_style = "normal", // normal|bold|italic
-                x: meta_x = null, // Will default to xMargin
-                y: meta_y = null, // Will default to cardHeight - yMargin - size
+                font: "DejaVuSansCondensed",
+                color: "black", // black|white
+                size: 24, // 16|24|32|48|64
+                style: "normal", // normal|bold|italic
+                x: null, // Will default to xMargin
+                y: null, // Will default to cardHeight - yMargin - size
               },
               background = "#FFFFFF", // Background color for the card
               xMargin = 24, // Edge margin used when x value is not set
