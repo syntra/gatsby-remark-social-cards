@@ -30,7 +30,6 @@
   },
   "dependencies": {
     "dateformat": "^3.0.3",
-    "gatsby-source-filesystem": "next",
     "jimp": "^0.4.0",
     "path": "^0.12.7"
   },
