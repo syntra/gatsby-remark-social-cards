@@ -140,6 +140,10 @@ I built this plugin to be as flexible as possible, so at first the config may se
                 // Pass an array with strings and objects
                 // The following array will generate:
                 // "- Author Name » September 13"
+                // The objects are used to pull data from your markdown's
+                // frontmatter. { field: "author" } pulls the author set
+                // in the frontmatter. { field: "category" } would pull
+                // the category set. Any field can be used in meta_parts
                 // Note: Only pass the "format" property on date fields
                 parts: meta_parts = [
                   "- ",
