@@ -28,6 +28,19 @@ With this plugin, they can!
 
 ## Installation
 
+#### Prerequisites
+
+It's recommended that you use [`gatsby-plugin-react-helmet`](https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-plugin-react-helmet/README.md) for managing the `<head/>` of your website. This plugin only generates the card images, it's your responsibility to add the `<meta/>` tags to the `<head/>` of your layout (step 4).
+
+The URLs set in the `<meta/>` tags also needs to be **absolute paths**. So make sure that you have `siteUrl` set in your `gatsby-config.js`:
+
+```js
+  siteMetadata: {
+    title: "My blog title",
+    siteUrl: "https://mydomain.com", // no trailing slash!
+  }
+```
+
 1. Install the plugin
 
 ```bash
@@ -52,6 +65,49 @@ yarn add gatsby-remark-social-cards
 ```
 
 3. Restart Gatsby
+
+4. Add the `<meta/>` tags in the head
+
+> Note: it's typically recommended to have your `<Helmet/>` section inside your main layout component. I was unable to find a way to get the current absolute url from within the layout component, so I did the following. (if you know of a better way to handle it, please open an issue or PR)
+
+Add a prop for `slug` to your layout component and use that along with the `siteUrl` to get the absolute path to the twitter card.
+
+```jsx
+const Layout = ({ slug, children }) => (
+  <StaticQuery
+    query={graphql`
+      query SiteTitleQuery {
+        site {
+          siteMetadata {
+            title
+            siteUrl
+          }
+        }
+      }
+    `}
+    render={data => (
+      <Helmet title={data.site.siteMetadata.title}>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content={`${data.site.siteMetadata.siteUrl}${slug}twitter-card.jpg`}
+        />
+      </Helmet>
+      { /* ... */ }
+    )}
+  />
+);
+```
+
+Then inside your blog post template, pass the post's slug to the layout
+
+```jsx
+export default ({ data }) => {
+  return <Layout slug={data.markdownRemark.fields.slug}>{/* ... */}</Layout>;
+};
+```
+
+5. There are additional meta tags that can and should be used, although the ones I showed above are the only ones **required** to properly see the card image. For more information, [see the official docs for large summary cards](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image)
 
 ## Configuration
 
