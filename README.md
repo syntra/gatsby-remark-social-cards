@@ -20,14 +20,15 @@ With this plugin, they can!
 - [x] Custom Background Colors
 - [ ] Custom Background Image
 - [ ] Custom Font Colors (currently supports `white` and `black`) [See #1](https://github.com/garetmckinley/gatsby-remark-social-cards/issues/1)
-- [ ] Custom Font Family
+- [ ] Custom Font Family (currently only supports `DejaVuSansCondensed`)
 - [x] Custom Font Size
-- [x] Custom Font Style (normal, italic, and bold)
+- [x] Custom Font Style (`normal`, `italic`, and `bold`)
 - [x] Custom Font Positioning
 - [x] Custom Metadata Strings
 - [ ] Watermark/Logo Support
 - [ ] Stackable Text Effects (opacity, drop shadow, stroke, pattern overlay)
 - [ ] Stackable Background Shapes (rect, circle, polygon)
+- [ ] Automatic Injection of Required `<meta/>` Tags
 
 ## Installation
 
