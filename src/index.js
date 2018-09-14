@@ -2,17 +2,32 @@ const path = require("path");
 const Jimp = require("jimp");
 const dateFormat = require("dateformat");
 
+// TODO: split this file into smaller modules
+
+/**
+ * Writes text to the provided image
+ * All options are required
+ *
+ * @param {Jimp} image
+ * @param {Object} options
+ */
 const writeText = async (
   image,
   { text, font, color, size, style, x, y, xBounds, yBounds }
 ) => {
+  const filename = [font, color, style, size].join("_");
   const fontFile = await Jimp.loadFont(
-    path.join(__dirname, `fonts/${font}_${color}_${style}_${size}.fnt`)
+    path.join(__dirname, `fonts/${filename}.fnt`)
   );
   return image.print(fontFile, x, y, { text }, xBounds, yBounds);
 };
 
-// Compiles the meta string using the supplied post and parts
+/**
+ * Compiles the meta string using the supplied post and parts
+ *
+ * @param {Object} post the markdown node's frontmatter
+ * @param {Array} parts the metadata parts that need compiled
+ */
 const compileMeta = (post, parts) =>
   parts
     .map(part => {
@@ -31,6 +46,11 @@ const compileMeta = (post, parts) =>
     })
     .join("");
 
+/**
+ *
+ * @param {Object} post the markdown node's frontmatter
+ * @param {Object} options the plugin options
+ */
 const generateCard = async (
   post,
   {
