@@ -177,7 +177,7 @@ I built this plugin to be as flexible as possible, so at first the config may se
 This plugin is in it's early stages, so any and all help is warmly welcomed!
 
 - ⇄ Pull/Merge requests and ★ Stars are always welcome!
-- For bugs and feature requests, please [create an issue][https://github.com/garetmckinley/gatsby-remark-social-cards/issues/new].
+- For bugs and feature requests, please [create an issue](https://github.com/garetmckinley/gatsby-remark-social-cards/issues/new).
 
 ## Changelog
 
