@@ -71,7 +71,7 @@ yarn add gatsby-remark-social-cards
 
 4. Add the `<meta/>` tags in the head
 
-> Note: it's typically recommended to have your `<Helmet/>` section inside your main layout component. I was unable to find a way to get the current absolute url from within the layout component, so I did the following. (if you know of a better way to handle it, please open an issue or PR)
+> Note: it's typically recommended to have your `<Helmet/>` section inside your main layout component. I was unable to find a way to get the current absolute url from within the layout component, so I did the following. **(if you know of a better way to handle it, please open an issue or PR)**
 
 Add a prop for `slug` to your layout component and use that along with the `siteUrl` to get the absolute path to the twitter card.
 
