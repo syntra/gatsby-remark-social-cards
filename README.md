@@ -7,7 +7,7 @@
 
 Do you wish your Gatsby blog posts could look like this when getting shared to Twitter?
 
-![custom twitter blog post card](https://i.imgur.com/BVfHE1W.jpg)
+![custom twitter blog post card](https://imgur.com/VUu6hlm.jpg)
 
 With this plugin, they can!
 
