@@ -1,5 +1,4 @@
 const path = require("path");
-const { createFilePath } = require("gatsby-source-filesystem");
 const Jimp = require("jimp");
 const dateFormat = require("dateformat");
 
@@ -99,20 +98,21 @@ const generateCard = async (
   return image;
 };
 
-exports.onCreateNode = ({ node, getNode }, settings) => {
-  // Not a markdown file, skip...
-  if (node.internal.type !== "MarkdownRemark") return;
+module.exports = ({ markdownNode }, options) => {
+  const post = markdownNode.frontmatter;
 
-  const post = node.frontmatter;
-  const root = createFilePath({ node, getNode });
-  const output = path.join("./public", root, "twitter-card.jpg");
+  const output = path.join(
+    "./public",
+    markdownNode.fields.slug,
+    "twitter-card.jpg"
+  );
 
-  generateCard(post, settings)
+  generateCard(post, options)
     .then(image =>
       image
         .writeAsync(output)
-        .then(() => console.log("\nGenerated Twitter Card:", output))
-        .catch(err => console.log("\nERROR GENERATING TWITTER CARD", err))
+        .then(() => console.log("Generated Twitter Card:", output))
+        .catch(err => console.log("ERROR GENERATING TWITTER CARD", err))
     )
     .catch(console.error);
 };
