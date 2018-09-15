@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://travis-ci.org/garetmckinley/gatsby-remark-social-cards"><img src="https://img.shields.io/travis/garetmckinley/gatsby-remark-social-cards.svg?style=flat-square"/></a>
-  <img src="https://img.shields.io/david/garetmckinley/gatsby-remark-social-cards.svg?style=flat-square"/>
+  <a href="https://david-dm.org/garetmckinley/gatsby-remark-social-cards"><img src="https://img.shields.io/david/garetmckinley/gatsby-remark-social-cards.svg?style=flat-square"/></a>
   <a href="https://www.npmjs.org/package/gatsby-remark-social-cards"><img src="https://img.shields.io/npm/v/gatsby-remark-social-cards.svg?style=flat-square"/></a>
   <a href="https://github.com/garetmckinley/gatsby-remark-social-cards/blob/master/LICENCE.md"><img src="https://img.shields.io/github/license/garetmckinley/gatsby-remark-social-cards.svg?style=flat-square"/></a>
 </p>
