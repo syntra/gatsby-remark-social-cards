@@ -1,5 +1,3 @@
-# gatsby-remark-social-cards
-
 <p align="center"><img src="https://i.imgur.com/glbLboQ.png" width="500"/></p>
 
 <p align="center">
