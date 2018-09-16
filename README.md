@@ -9,8 +9,6 @@
 
 ## Elevator Pitch
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/syntra/gatsby-remark-social-cards.svg)](https://greenkeeper.io/)
-
 Do you wish your Gatsby blog posts could look like this when getting shared to Twitter?
 
 ![custom twitter blog post card](https://i.imgur.com/VByhlyE.jpg)
@@ -20,6 +18,8 @@ With this plugin, they can!
 `gatsby-remark-social-cards` iterates over your markdown files and automatically generates graphical representations of the frontmatter data! It's highly customizable and can help increase your click rates.
 
 ## Features/Roadmap
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/syntra/gatsby-remark-social-cards.svg)](https://greenkeeper.io/)
 
 - [x] Generates Twitter Card
 - [ ] Generates Facebook Card
