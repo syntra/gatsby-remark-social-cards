@@ -87,19 +87,19 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@jimp/bmp@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/bmp/-/bmp-0.4.0.tgz#9eae4b61fb82a34a529cd1f02423f5efe93a8951"
+"@jimp/bmp@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/bmp/-/bmp-0.5.0.tgz#52b9a2bc3b23d59d21d252f7d60133413deaa351"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     bmp-js "^0.1.0"
     core-js "^2.5.7"
 
-"@jimp/core@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/core/-/core-0.4.0.tgz#db6b063fd9f6d0f292d9eecffc3a9e07dbc8b7e7"
+"@jimp/core@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/core/-/core-0.5.0.tgz#5158ea2cbe32ef1ed6146a4237b6fefd942fc8a4"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     any-base "^1.1.0"
     buffer "^5.2.0"
     core-js "^2.5.7"
@@ -111,204 +111,204 @@
     pixelmatch "^4.0.2"
     tinycolor2 "^1.4.1"
 
-"@jimp/custom@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/custom/-/custom-0.4.0.tgz#c0b801aea1413c2b827ba299523cbc2d0932197d"
+"@jimp/custom@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/custom/-/custom-0.5.0.tgz#ffae82641f26dd85b80814459999abbe425a7aaf"
   dependencies:
-    "@jimp/core" "^0.4.0"
+    "@jimp/core" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/gif@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/gif/-/gif-0.4.0.tgz#69ed6022587f72eab4d22ba1388bdf43649c64e5"
+"@jimp/gif@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/gif/-/gif-0.5.0.tgz#7543870b3d744c9758da76ca43fac4ee48fd6a00"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
     omggif "^1.0.9"
 
-"@jimp/jpeg@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/jpeg/-/jpeg-0.4.0.tgz#66bab17638c834e21d21ca2c4f41e1f9e6f5ae1d"
+"@jimp/jpeg@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/jpeg/-/jpeg-0.5.0.tgz#28603290a21d7cea22cd4d568bc11e6d2b08aa2b"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
     jpeg-js "^0.3.4"
 
-"@jimp/plugin-blit@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-blit/-/plugin-blit-0.4.0.tgz#a4ac8709a640faea25d41ec1f54e0635f6e59adf"
+"@jimp/plugin-blit@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-blit/-/plugin-blit-0.5.0.tgz#0fb4ccc0a4e4b06df3ce21a7e37cc2dedd6872ee"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-blur@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-blur/-/plugin-blur-0.4.0.tgz#a869910080a2a43ddd7f4c191b4dca93ed36feba"
+"@jimp/plugin-blur@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-blur/-/plugin-blur-0.5.0.tgz#c8222bdae8eb4cc86613c0adbcb26a92829739a2"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-color@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-color/-/plugin-color-0.4.0.tgz#91904918942c0cc038dd62c088936ae9488b51fb"
+"@jimp/plugin-color@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-color/-/plugin-color-0.5.0.tgz#a3995ce92fb83040161442d94c12212a746e4d30"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
     tinycolor2 "^1.4.1"
 
-"@jimp/plugin-contain@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-contain/-/plugin-contain-0.4.0.tgz#f1db0d955e021cbb065bc459ccfb867db3c7ed19"
+"@jimp/plugin-contain@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-contain/-/plugin-contain-0.5.0.tgz#ba148b6c5948b72def62f4d695773aea562b0b43"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-cover@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-cover/-/plugin-cover-0.4.0.tgz#80db9bd7616351cc22d9b8dc34cb2825662dc6df"
+"@jimp/plugin-cover@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-cover/-/plugin-cover-0.5.0.tgz#8d8589217db662003a1ba88ec25106d763ea79dc"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-crop@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-crop/-/plugin-crop-0.4.0.tgz#fe636da06d35d0d95e5bcc47fcc3af3a9baa185a"
+"@jimp/plugin-crop@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-crop/-/plugin-crop-0.5.0.tgz#5d0129d320e1838721aaec09caf5b6fa22a674d7"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-displace@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-displace/-/plugin-displace-0.4.0.tgz#f6a07cc786f034930987477db8b2aa1eacfb4f3d"
+"@jimp/plugin-displace@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-displace/-/plugin-displace-0.5.0.tgz#cb75d8588bdee45c1bdb1bec2323705d0e53d060"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-dither@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-dither/-/plugin-dither-0.4.0.tgz#92114cb4e0bd7a8cac8e2eb4e33e81e3c196be16"
+"@jimp/plugin-dither@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-dither/-/plugin-dither-0.5.0.tgz#0f1f6b7dcd5aba8f908bbd4b60685fc29cc6a3ed"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-flip@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-flip/-/plugin-flip-0.4.0.tgz#314cb6e89f8b778843d7c50d4114576ca81587a2"
+"@jimp/plugin-flip@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-flip/-/plugin-flip-0.5.0.tgz#4a973c9c4bdc6dbcc7da66204a2bb2b12feb9381"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-gaussian@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-gaussian/-/plugin-gaussian-0.4.0.tgz#5b31cb253367342811d91bb7db2c7fd31fb37198"
+"@jimp/plugin-gaussian@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-gaussian/-/plugin-gaussian-0.5.0.tgz#02c9f07516108e01ba0f2938289b08e6e865c2c9"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-invert@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-invert/-/plugin-invert-0.4.0.tgz#b490b6c758394cfd73555837968db2d94e41afa8"
+"@jimp/plugin-invert@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-invert/-/plugin-invert-0.5.0.tgz#4496d2d67ab498c8fa3e89c4b6dd5892e7f14b9b"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-mask@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-mask/-/plugin-mask-0.4.0.tgz#22323b24ce6dadaadfe8c07958d349a5eac27f46"
+"@jimp/plugin-mask@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-mask/-/plugin-mask-0.5.0.tgz#a1026991f724ff0522cd458cf8f45dd31c169ef2"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-normalize@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-normalize/-/plugin-normalize-0.4.0.tgz#84370b3dd65181b95c25d5e0388aa9dd9abffff7"
+"@jimp/plugin-normalize@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-normalize/-/plugin-normalize-0.5.0.tgz#21a510ea2ccc6637c378cc0c86a4cec9753c2122"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-print@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-print/-/plugin-print-0.4.0.tgz#a1c2bd77e425a9a676c20cb6c202cd42d4a1ec64"
+"@jimp/plugin-print@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-print/-/plugin-print-0.5.0.tgz#40f6d4f4555351dc39da2116ef5c239a73827218"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
     load-bmfont "^1.4.0"
 
-"@jimp/plugin-resize@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-resize/-/plugin-resize-0.4.0.tgz#755fc8404928ae2f7598786b25b79caa17402496"
+"@jimp/plugin-resize@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-resize/-/plugin-resize-0.5.0.tgz#5886b15fb77caee70ca3ce972ea176ad88faca7a"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-rotate@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-rotate/-/plugin-rotate-0.4.0.tgz#27faa1aef76767464d15f5501a549b604f8c4ccb"
+"@jimp/plugin-rotate@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-rotate/-/plugin-rotate-0.5.0.tgz#08c2f74cb37837b41939c7eb78923a5cca735182"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugin-scale@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-scale/-/plugin-scale-0.4.0.tgz#0bbaf2ff305a43669d1bace61396657438ada818"
+"@jimp/plugin-scale@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-scale/-/plugin-scale-0.5.0.tgz#095f937e5a4887481b3074f5cd6a144d8f4f815e"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
 
-"@jimp/plugins@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/plugins/-/plugins-0.4.0.tgz#a0c155b8b800fd8841ccadb73d701c84b2969d2f"
+"@jimp/plugins@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/plugins/-/plugins-0.5.0.tgz#4af7aaa221d1cff119d89f2e103d9b01800a9817"
   dependencies:
-    "@jimp/plugin-blit" "^0.4.0"
-    "@jimp/plugin-blur" "^0.4.0"
-    "@jimp/plugin-color" "^0.4.0"
-    "@jimp/plugin-contain" "^0.4.0"
-    "@jimp/plugin-cover" "^0.4.0"
-    "@jimp/plugin-crop" "^0.4.0"
-    "@jimp/plugin-displace" "^0.4.0"
-    "@jimp/plugin-dither" "^0.4.0"
-    "@jimp/plugin-flip" "^0.4.0"
-    "@jimp/plugin-gaussian" "^0.4.0"
-    "@jimp/plugin-invert" "^0.4.0"
-    "@jimp/plugin-mask" "^0.4.0"
-    "@jimp/plugin-normalize" "^0.4.0"
-    "@jimp/plugin-print" "^0.4.0"
-    "@jimp/plugin-resize" "^0.4.0"
-    "@jimp/plugin-rotate" "^0.4.0"
-    "@jimp/plugin-scale" "^0.4.0"
+    "@jimp/plugin-blit" "^0.5.0"
+    "@jimp/plugin-blur" "^0.5.0"
+    "@jimp/plugin-color" "^0.5.0"
+    "@jimp/plugin-contain" "^0.5.0"
+    "@jimp/plugin-cover" "^0.5.0"
+    "@jimp/plugin-crop" "^0.5.0"
+    "@jimp/plugin-displace" "^0.5.0"
+    "@jimp/plugin-dither" "^0.5.0"
+    "@jimp/plugin-flip" "^0.5.0"
+    "@jimp/plugin-gaussian" "^0.5.0"
+    "@jimp/plugin-invert" "^0.5.0"
+    "@jimp/plugin-mask" "^0.5.0"
+    "@jimp/plugin-normalize" "^0.5.0"
+    "@jimp/plugin-print" "^0.5.0"
+    "@jimp/plugin-resize" "^0.5.0"
+    "@jimp/plugin-rotate" "^0.5.0"
+    "@jimp/plugin-scale" "^0.5.0"
     core-js "^2.5.7"
     timm "^1.6.1"
 
-"@jimp/png@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/png/-/png-0.4.0.tgz#11cd89fb842d76ba6b6aa97466118baf52aceb62"
+"@jimp/png@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/png/-/png-0.5.0.tgz#634d3443fedfafd30fec2b176da807cdce0bfb70"
   dependencies:
-    "@jimp/utils" "^0.4.0"
+    "@jimp/utils" "^0.5.0"
     core-js "^2.5.7"
     pngjs "^3.3.3"
 
-"@jimp/tiff@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/tiff/-/tiff-0.4.0.tgz#aa1f34f608437ca7378c4cf71a55932ef6f37fc4"
+"@jimp/tiff@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/tiff/-/tiff-0.5.0.tgz#e702aca1fac3313bb25b53833a6aa3a9b54578f1"
   dependencies:
     core-js "^2.5.7"
     utif "^2.0.1"
 
-"@jimp/types@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/types/-/types-0.4.0.tgz#246bd4727fd81474ff51fc87a1bbf0ab6add9a74"
+"@jimp/types@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/types/-/types-0.5.0.tgz#c942d2196b3d57d17d5bc07d5a8bdaf9525af2e9"
   dependencies:
-    "@jimp/bmp" "^0.4.0"
-    "@jimp/gif" "^0.4.0"
-    "@jimp/jpeg" "^0.4.0"
-    "@jimp/png" "^0.4.0"
-    "@jimp/tiff" "^0.4.0"
+    "@jimp/bmp" "^0.5.0"
+    "@jimp/gif" "^0.5.0"
+    "@jimp/jpeg" "^0.5.0"
+    "@jimp/png" "^0.5.0"
+    "@jimp/tiff" "^0.5.0"
     core-js "^2.5.7"
     timm "^1.6.1"
 
-"@jimp/utils@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@jimp/utils/-/utils-0.4.0.tgz#e54d04d883231c993d3d27f33701dd09d32fc3b9"
+"@jimp/utils@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@jimp/utils/-/utils-0.5.0.tgz#ecb33259c75238053d6c7706a3e91f657dbabf91"
   dependencies:
     core-js "^2.5.7"
 
@@ -2116,14 +2116,14 @@ jest-validate@^23.5.0:
     leven "^2.1.0"
     pretty-format "^23.5.0"
 
-jimp@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/jimp/-/jimp-0.4.0.tgz#19c9bb2d104e468a86f81962a99363f6f7b3be47"
+jimp@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/jimp/-/jimp-0.5.0.tgz#ffc1c833d32ba2ab3589ffa9719eee0676b20bf3"
   dependencies:
     "@babel/polyfill" "^7.0.0"
-    "@jimp/custom" "^0.4.0"
-    "@jimp/plugins" "^0.4.0"
-    "@jimp/types" "^0.4.0"
+    "@jimp/custom" "^0.5.0"
+    "@jimp/plugins" "^0.5.0"
+    "@jimp/types" "^0.5.0"
     core-js "^2.5.7"
 
 jpeg-js@^0.3.4:
@@ -2410,7 +2410,7 @@ minimatch@^3.0.2, minimatch@^3.0.4:
 
 minimist@0.0.8:
   version "0.0.8"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
+  resolved "http://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
 
 minimist@^1.2.0:
   version "1.2.0"
