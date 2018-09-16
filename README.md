@@ -19,6 +19,8 @@ With this plugin, they can!
 
 ## Features/Roadmap
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/syntra/gatsby-remark-social-cards.svg)](https://greenkeeper.io/)
+
 - [x] Generates Twitter Card
 - [ ] Generates Facebook Card
 - [x] Custom Background Colors
