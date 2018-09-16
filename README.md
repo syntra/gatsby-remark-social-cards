@@ -9,6 +9,8 @@
 
 ## Elevator Pitch
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/syntra/gatsby-remark-social-cards.svg)](https://greenkeeper.io/)
+
 Do you wish your Gatsby blog posts could look like this when getting shared to Twitter?
 
 ![custom twitter blog post card](https://i.imgur.com/VByhlyE.jpg)
