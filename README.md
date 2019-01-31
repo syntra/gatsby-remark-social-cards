@@ -1,10 +1,10 @@
 <p align="center"><img src="https://i.imgur.com/glbLboQ.png" width="500"/></p>
 
 <p align="center">
-  <a href="https://travis-ci.org/garetmckinley/gatsby-remark-social-cards"><img src="https://img.shields.io/travis/garetmckinley/gatsby-remark-social-cards.svg?style=flat-square"/></a>
-  <a href="https://david-dm.org/garetmckinley/gatsby-remark-social-cards"><img src="https://img.shields.io/david/garetmckinley/gatsby-remark-social-cards.svg?style=flat-square"/></a>
+  <a href="https://travis-ci.org/syntra/gatsby-remark-social-cards"><img src="https://img.shields.io/travis/syntra/gatsby-remark-social-cards.svg?style=flat-square"/></a>
+  <a href="https://david-dm.org/syntra/gatsby-remark-social-cards"><img src="https://img.shields.io/david/syntra/gatsby-remark-social-cards.svg?style=flat-square"/></a>
   <a href="https://www.npmjs.org/package/gatsby-remark-social-cards"><img src="https://img.shields.io/npm/v/gatsby-remark-social-cards.svg?style=flat-square"/></a>
-  <a href="https://github.com/garetmckinley/gatsby-remark-social-cards/blob/master/LICENCE.md"><img src="https://img.shields.io/github/license/garetmckinley/gatsby-remark-social-cards.svg?style=flat-square"/></a>
+  <a href="https://github.com/syntra/gatsby-remark-social-cards/blob/master/LICENCE.md"><img src="https://img.shields.io/github/license/syntra/gatsby-remark-social-cards.svg?style=flat-square"/></a>
 </p>
 
 ## Elevator Pitch
@@ -25,7 +25,7 @@ With this plugin, they can!
 - [ ] Generates Facebook Card
 - [x] Custom Background Colors
 - [ ] Custom Background Image
-- [ ] Custom Font Colors (currently supports `white` and `black`) [See #1](https://github.com/garetmckinley/gatsby-remark-social-cards/issues/1)
+- [ ] Custom Font Colors (currently supports `white` and `black`) [See #1](https://github.com/syntra/gatsby-remark-social-cards/issues/1)
 - [ ] Custom Font Family (currently only supports `DejaVuSansCondensed`)
 - [x] Custom Font Size
 - [x] Custom Font Style (`normal`, `italic`, and `bold`)
@@ -187,7 +187,7 @@ I built this plugin to be as flexible as possible, so at first the config may se
 This plugin is in it's early stages, so any and all help is warmly welcomed!
 
 - ⇄ Pull/Merge requests and ★ Stars are always welcome!
-- For bugs and feature requests, please [create an issue](https://github.com/garetmckinley/gatsby-remark-social-cards/issues/new).
+- For bugs and feature requests, please [create an issue](https://github.com/syntra/gatsby-remark-social-cards/issues/new).
 
 ## Changelog
 
