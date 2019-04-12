@@ -3255,10 +3255,10 @@ preserve@^0.2.0:
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
-prettier@1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.0.tgz#c6191a50fbc9056ff770577d64ebd9987cca1dd7"
-  integrity sha512-NtSOnDRmJaNuruoX0KhDdQ3UGyLNJaSuP2eJn6Q6uSvzQBAJQHZbXgraFPbv8sYbNaMR9nz7scMy55WC+78E6w==
+prettier@1.17.0:
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.17.0.tgz#53b303676eed22cc14a9f0cec09b477b3026c008"
+  integrity sha512-sXe5lSt2WQlCbydGETgfm1YBShgOX4HxQkFPvbxkcwgDvGDeqVau8h+12+lmSVlP3rHPz0oavfddSZg/q+Szjw==
 
 private@^0.1.6, private@^0.1.8:
   version "0.1.8"
