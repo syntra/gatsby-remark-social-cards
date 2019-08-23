@@ -78,12 +78,12 @@ yarn add gatsby-remark-social-cards
 
 4. Add the `<meta/>` tags in the head
 
-> Note: it's typically recommended to have your `<Helmet/>` section inside your main layout component. I was unable to find a way to get the current absolute url from within the layout component, so I did the following. **(if you know of a better way to handle it, please open an issue or PR)**
+> Note: it's typically recommended to have your `<Helmet/>` section inside your main layout component.
 
-Add a prop for `slug` to your layout component and use that along with the `siteUrl` to get the absolute path to the twitter card.
+Add a prop for `pathname` to your layout component and use that along with the `siteUrl` to get the absolute path to the twitter card.
 
 ```jsx
-const Layout = ({ slug, children }) => (
+const Layout = ({ pathname, children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -100,7 +100,7 @@ const Layout = ({ slug, children }) => (
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:image"
-          content={`${data.site.siteMetadata.siteUrl}${slug}twitter-card.jpg`}
+          content={`${data.site.siteMetadata.siteUrl}${pathname}twitter-card.jpg`}
         />
       </Helmet>
       { /* ... */ }
@@ -109,11 +109,13 @@ const Layout = ({ slug, children }) => (
 );
 ```
 
-Then inside your blog post template, pass the post's slug to the layout
+Then inside your blog post template, pass `location.pathname` to the layout.
+
+> Note: router's `location` object is passed to every page in Gatsby
 
 ```jsx
-export default ({ data }) => {
-  return <Layout slug={data.markdownRemark.fields.slug}>{/* ... */}</Layout>;
+export default ({ location }) => {
+  return <Layout pathname={location.pathname}>{/* ... */}</Layout>;
 };
 ```
 
