@@ -121,18 +121,21 @@ const generateCard = async (
 module.exports = ({ markdownNode }, options) => {
   const post = markdownNode.frontmatter;
 
-  const output = path.join(
-    "./public",
-    markdownNode.fields.slug,
-    "twitter-card.jpg"
-  );
+  
+  if (markdownNode.fields) {
+    const output = path.join(
+      "./public",
+      markdownNode.fields.slug,
+      "twitter-card.jpg"
+    );
 
-  generateCard(post, options)
-    .then(image =>
-      image
-        .writeAsync(output)
-        .then(() => console.log("Generated Twitter Card:", output))
-        .catch(err => console.log("ERROR GENERATING TWITTER CARD", err))
-    )
-    .catch(console.error);
+    generateCard(post, options)
+      .then(image =>
+        image
+          .writeAsync(output)
+          .then(() => console.log("Generated Twitter Card:", output))
+          .catch(err => console.log("ERROR GENERATING TWITTER CARD", err))
+      )
+      .catch(console.error);
+  }
 };
